@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>419c7e8b-9c31-4405-8e0a-5a62d23eb9f8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sportschoolProject.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="sportschoolProject.py" />
+    <Compile Include="cameraController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="databaseController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graphController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="helper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="motorController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qrController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main.py" />
+    <Compile Include="webhostController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="charts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
