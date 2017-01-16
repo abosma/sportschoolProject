@@ -1,6 +1,12 @@
 import pygal
 
 def createGraph(data1, data2, data3, data4, data5):
+    '''Maakt een .svg grafiek bestand
+    data1 = List object met alle data
+    data2 = List object met alle data
+    data3 = List object met alle data
+    data4 = List object met alle data
+    data5 = List object met alle data'''
     custom_style = pygal.style.Style(
                     background="#2C2230",
                     plot_background="#3F3145",

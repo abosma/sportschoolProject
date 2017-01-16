@@ -22,6 +22,7 @@ def createUser(NAAM, CODE, CANENTER=1):
                   ",'" + CODE + "'" + 
                   ",'" + str(CANENTER) + 
                   "')")
+        # TODO: Insert values into USERDATA
         #c.execute("INSERT INTO USERDATA VALUES ("+
         #          "NULL" +
         #          ",NULL" +
@@ -86,3 +87,5 @@ def compareCode(CODE):
         naam = naam.replace(".", " ")
         print("Gebruiker: " + naam)
         return True
+
+# TODO: Add function to link USERDATA Table to graphController
