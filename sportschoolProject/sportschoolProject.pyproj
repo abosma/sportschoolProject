@@ -34,13 +34,11 @@
     <Compile Include="helper.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="motorController.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="qrController.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py" />
+    <Compile Include="motorController.py" />
     <Compile Include="webhostController.py">
       <SubType>Code</SubType>
     </Compile>
@@ -50,6 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="charts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
